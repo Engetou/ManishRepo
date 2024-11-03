@@ -13,12 +13,7 @@ jobs:
         runs-on: ubuntu-latest
         steps: 
             - name: clone my repository
-              run: echo "i'am learning DevOps"
+              uses: actions/checkout@v4
     
-    mysecondjob:
-        runs-on: ubuntu-latest
-        steps:
-            - name: I'm high haha
-              run: echo "this is my second job"
-
+  
 
